@@ -1,13 +1,11 @@
-
 ---
 title: Kin Staking Incentives Test
 status: Proposed
 author: Andrew Mocol (@mocolicious)
-shortDescription: 
+shortDescription: Start staking rewards by building functionality to calculate APY and request money from Kin Reserves to test it
 discussions: TBD
 created: 2023-02-11
 ---
-
 
 ## Summary
 
