@@ -13,15 +13,15 @@ This proposal is an initial test proposal for the governance system to assign a 
 
 ## Motivation
 
-The staking system was put in place with the idea that a healthy amount of incentive woud be required to keep people active in the governance process.  To enourage maximum participation of community members they should be rewarded for signalling into the module and the ecosystem benefits from reduced potential sell pressure since much of the kin will locked away in the staking module.
+In order to stand up a decentralized autonomous system we have to entrust some engineers with the construction and review of it, while empowering the community to hold them accountable.  The role of review would be responsible for vetting the intital code to construct the autonomous system.
 
 ## Specification
 
-The staking amount would distributed over the course of a 6 month period.  So the protocol would need to calculate the APY based on a linear model that bases a fixed APY rate on time adjusted math calculating based on the time of locking started. The lower higher the utilization, the lower the APY.
+TBD
 
 ## Security
 
-Since this requires an additional SPL component with exact math, it will require an audit prior to entering the final review
+TBD
 
 ## Implementation
 
