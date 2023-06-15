@@ -1,0 +1,24 @@
+The goal of KIP 003 is creat a staking incentive.  We will copy some of the principles implementd on the AAVE chain.
+First of a general summary of roughly how he AAVE network bootstapped their staking and some of the loose numbers in the reserve
+AAVE has a total supply of 16 milling AAVE
+AAVE emissions rate is 1,100 AAVE per day emitted for staking
+The supply is fixed
+This is only emissions source, and they come from the ecosystem reserve
+the ecosystem reserve is designed to last for only a couple of years currently
+The initial ecosystem reserve amount had 3 million AAVE at the time of toke inception
+Currently the only usage for the reserve funds is staking rewards.  However the decentralized governance can decide to use the treasury funds for governance if they choose in future
+There are current discussions in the AAVE governance forum about the long term sustainability of the protocol treasury from protocol fees and other proposals with the GHO (Ghost) stable coin; GHO will be minted as a loan against Aave V3 assets deposited by users into the protocol 
+Of the 1,100 Aave emitted daily; 550 Aave each are split between AAVE and ABPT stakers; these are the two staking options
+There is no minimum or maximum staking period but there is a 10-Day cooldown period and a 2-Day window to unstake 
+------------------------------------------------------------------------------------------------------------------
+Here is my proposal for the KIN Protocol Staking Emissions
+With 16 Million AAVE in reserves to start at 1,110 AAVE per day the emission percentage is .006875% of Total Reserve per day
+If we say that the Kin Staking Reserves will be 100 Billion, the formula could look like this below on line 17
+With 100 Billion KIN in reserves to start, multiplied by the emission percentage of .006875% of Total Reserve per day …  That would mean 6,875,000 million KIN per day in rewards for stakers
+There are 31,536,000 seconds per year
+2,509,375,000 KIN released each year
+79.5 KIN per second
+The unknown will be how much KIN is staked at any given time, but the formula would look like this (79.5 emissions per second x 31,536,000 / current stakes)
+So for an example let’s say 200,000,000,000 Kin were staked at any time which is 10% of the total current circulating supply, we get this below on line 23
+79.5 Kin Emissions Per Second x 31,536,000 seconds per year / 200,000,000,000 = .01254 Kin per second for each Kin Staked 
+The staking reserves with these numbers lasts for 39.85 years
